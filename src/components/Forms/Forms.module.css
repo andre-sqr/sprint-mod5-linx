@@ -1,0 +1,14 @@
+.forms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    color: #888888;
+}
+
+.formSection {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
