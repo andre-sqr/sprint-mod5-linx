@@ -7,8 +7,8 @@ const Header = () => {
     <div>
         <Diagonal/>
         <div className={Style.header}>
-        <h2>uma seleção de produtos</h2>
-        <h1>especial para você</h1>
+        <h2 className={Style.headerh2}>uma seleção de produtos</h2>
+        <h1 className={Style.headerh1}>especial para você</h1>
         <h3>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</h3>
         <div className={Style.divButtons}> 
             <button className={Style.headerButton}>Conheça a Linx</button>
