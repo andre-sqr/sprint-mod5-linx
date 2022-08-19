@@ -1,0 +1,14 @@
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.divProdutos {
+    display: grid;
+    justify-content: center;
+    align-items: stretch;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 38px;
+}
