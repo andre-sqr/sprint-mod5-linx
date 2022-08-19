@@ -1,7 +1,7 @@
 .forms {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
     color: #888888;
 }
@@ -9,6 +9,42 @@
 .formSection {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
 }
 
+.formInput {
+    width: 340px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.formP {
+    font-size: 12px;
+}
+
+.formh3 {
+    font-size: 20px;
+    margin-bottom: 3.5%;
+}
+
+.formRadioDiv {
+    display: flex;
+    width: 80%;
+}
+
+.formRadioItem {
+    margin-right: 15%;
+}
+
+.formBtn {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    margin-top: 3%;
+    width: 340px;
+    height: 39px;
+}
