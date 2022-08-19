@@ -1,0 +1,20 @@
+.btn {
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 40px;
+    width: 200px;
+}
+
+.imgCard {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #707070;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
