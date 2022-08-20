@@ -8,9 +8,9 @@ const Card = ({img, nome, descricao, precoAntigo, precoAtual, nVezesParcela, par
         <img src={img} className={Style.imgCard}></img>
         <h3>{nome}</h3>
         <p>{descricao}</p>
-        <h5>De: {precoAntigo}</h5>
-        <h4>Por: {precoAtual}</h4>
-        <p>ou {nVezesParcela}x por {parcela}</p>
+        <h5>De: R${precoAntigo}</h5>
+        <h4>Por: R${precoAtual}</h4>
+        <p>ou {nVezesParcela}x por R${parcela}</p>
         <Button texto="Comprar" estilo={Style.btn}/>
     </div>
   )
