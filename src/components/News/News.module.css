@@ -1,0 +1,50 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+    color: #888888;
+}
+
+.h1 {
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+.h2 {
+    font-size: 14px;
+    margin-bottom: 3.5%;
+}
+
+.sectionColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+    width: 100%;
+    gap: 20px;
+}
+
+.input {
+        width: 340px;
+        height: 30px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        margin-top: 2%;
+        margin-bottom: 2%;
+}
+
+.btn {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    margin-top: 3%;
+    width: 340px;
+    height: 39px;
+}
