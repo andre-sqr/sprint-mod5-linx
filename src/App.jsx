@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer/Footer'
 import Forms from './components/Forms/Forms'
 import Header from './components/Header/Header'
 import News from './components/News/News'
@@ -12,6 +13,7 @@ function App() {
       <Forms/>
       <Produtos/>
       <News/>
+      <Footer/>
     </div>
   )
 }
