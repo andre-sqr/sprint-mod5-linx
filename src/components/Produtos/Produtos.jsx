@@ -44,7 +44,7 @@ const Produtos = () => {
               );
         })}
         </div>
-        <Button texto="Ainda mais produtos aqui!" onClick={nextPagina}/>
+        <Button estilo={Style.btn} texto="Ainda mais produtos aqui!" onClick={nextPagina}/>
     </div>
   )
 }
